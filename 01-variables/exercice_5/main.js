@@ -8,7 +8,8 @@ function celsiusToFahrenheit(celsius) {
 
 // Tester avec une valeur fixe
 let celsius = 25;
+let fahrenheit = celsiusToFahrenheit(celsius);
 console.log(celsius + "°C équivaut à " + celsiusToFahrenheit(celsius) + "°F");
 
 // Exporter la fonction pour les tests
-module.exports = celsiusToFahrenheit;
+module.exports = {celsiusToFahrenheit};
